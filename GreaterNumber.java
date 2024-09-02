@@ -16,12 +16,6 @@ public class GreaterNumber {
         int maior = 0;
         int menor = 0;
 
-
-
-
-
-
-
         // verifcar o maior e menor número e colocar em orem decrescente
         if (num1 > num2 && num2 > num3){
             System.out.println(num1 +" " + num2 +" "+ num3);
