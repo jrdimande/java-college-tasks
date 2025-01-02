@@ -12,4 +12,4 @@ public class Substring{
         String b = language.substring(6, 11);
         System.out.println(b);
     }
-} 
+}
