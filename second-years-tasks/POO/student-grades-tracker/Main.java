@@ -1,19 +1,50 @@
+import java.util.Scanner;
+
 public class Main {
+    public static void menu(){
+        System.out.println("1 - Add a student.");
+        System.out.println("2 - Assign grades to a student.");
+        System.out.println("3 - Calculate and display avarage grade for a student.");
+        System.out.println("4 - Display a report of all students and their average grades");
+    }
     public static void main(String[] args){
-        Student s1 = new Student("Teddy",0);
-        Student s2 = new Student("Denzel", 1);
-        Student s3 = new Student("Kayron", 2);
-        School c1 = new School();
+        Scanner sc = new Scanner(System.in);
+        School school = new School();
 
-        s1.addGrade(-10);
-        s1.addGrade(18);
-        s1.addGrade(20);
-        s1.addGrade(12);
+        menu();
 
-        c1.addStudent(s1);
-        c1.addStudent(s2);
-        c1.addStudent(s3);
-        c1.displayStudentsInfo();
+        String option = "s";
+
+        while ( option == "s" ){
+            System.out.print("Choose an option: ");
+            option = sc.nextLine();
+
+            switch (option){
+                case "1":
+                    System.out.print("Enter student name: ");
+                    sc.nextLine();
+                    String name = sc.nextLine();
+                    System.out.print("Enter student id: ");
+                    int id = sc.nextInt();
+                    Student student = new Student(name, id);
+                    school.addStudent(student);
+                    break;
+
+                case  "2":
+                    System.out.print("Enter student id: ");
+                    id = sc.nextInt();
+                    System.out.print("Enter add grade: ");
+                    double grade = sc.nextDouble();
+
+                    student = school.findStudent(id);
+                    student.addGrade(grade);
+
+            }
+        }
+
+        school.displayStudentsInfo();
+
+
 
 
 
