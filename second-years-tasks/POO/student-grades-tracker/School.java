@@ -26,17 +26,16 @@ public class School {
 
         }
     }
-
-    // method to find student
-    public void findStudent(int id){
+    // Method to return student
+    public Student findStudent(int id){
         for (int i = 0; i < students.size(); i++){
-            System.out.println(1);
             if (students.get(i).getId() == id){
-                students.get(i).displayDetails();
-            }else {
-                System.out.println(0);
+                System.out.println(1);
+                return students.get(i);
             }
         }
+        System.out.println(0);
+        return null;
     }
 
 
