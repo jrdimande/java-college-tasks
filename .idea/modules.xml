@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java-college-tasks.iml" filepath="$PROJECT_DIR$/.idea/java-college-tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/second-years-tasks/second-years-tasks.iml" filepath="$PROJECT_DIR$/second-years-tasks/second-years-tasks.iml" />
     </modules>
   </component>
 </project>

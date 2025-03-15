@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -20,7 +19,7 @@ public class Main {
             System.out.println("Enter age: ");
             int age = sc.nextInt();
 
-            Student s1 = new Student(id, name, level, age);
+            student s1 = new student(id, name, level, age);
             c1.addStudent(s1);
 
             System.out.println("========================================================================================");
