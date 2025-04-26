@@ -14,6 +14,7 @@ public class Professor extends Funcionario{
         this.salario = salario + sal;
     }
 
+    @Override
     public String toString(){
         return "Nome: " + nome + " Idade: " + idade + " Sexo: " + sexo + " Especialidade: " + especialidade + " Salario: " + salario + " Trabalhando: " + verTrabalho();
     }

@@ -13,6 +13,7 @@ public class Aluno extends Pessoa{
         System.out.println("Matricula cancelada");
     }
 
+    @Override
     public String toString(){
         return "Nome: " + nome + " Idade: " + idade + " Sexo: " + sexo + " Matricula: " + mat + " Curso: " + curso;
     }
