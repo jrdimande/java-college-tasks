@@ -11,6 +11,15 @@ public class Main {
         p1.fazerAniversario();
         System.out.println(p1.toString());
 
+        // Mostrar p2
+        System.out.println(p2.toString());
+        p2.aumentoSal(24000);
+        p2.mudaTrabalho();
+        p2.fazerAniversario();
+        System.out.println(p2.toString());
+
+
+
 
 
     }

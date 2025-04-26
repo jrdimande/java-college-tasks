@@ -1,7 +1,5 @@
 package example_1;
 
-import com.sun.source.tree.BreakTree;
-
 public class Aluno extends Pessoa{
     private int mat;
     private String curso;
@@ -13,6 +11,10 @@ public class Aluno extends Pessoa{
     }
     public void cancelarMatricula(){
         System.out.println("Matricula cancelada");
+    }
+
+    public String toString(){
+        return "Nome: " + nome + " Idade: " + idade + " Sexo: " + sexo + " Matricula: " + mat + " Curso: " + curso;
     }
 
 
