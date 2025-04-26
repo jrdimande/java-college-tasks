@@ -11,6 +11,6 @@ public class Main {
         System.out.println("Modified: " + myObj.x);
 
         // Operations
-        System.out.println("Result: "myObj.x + myObj1.x);
+        System.out.println("Result: " + myObj.x + myObj1.x);
     }
 }
