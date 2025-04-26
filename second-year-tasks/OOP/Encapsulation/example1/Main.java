@@ -5,7 +5,7 @@ public class Main {
         Student s = new Student();
         s.setName("Jay z");
         s.setAge(40);
-        
+
         System.out.println(s.getName());
         System.out.println(s.getAge());
 
