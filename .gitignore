@@ -2,3 +2,5 @@
 appengine-generated/
 out
 token.sh
+../.idea/
+push.sh
