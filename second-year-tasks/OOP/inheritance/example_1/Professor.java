@@ -13,4 +13,5 @@ public class Professor extends Funcionario{
     public void aumentoSal(double sal){
         this.salario = salario + sal;
     }
+
 }
