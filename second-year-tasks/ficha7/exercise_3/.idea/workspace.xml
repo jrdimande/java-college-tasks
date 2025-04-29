@@ -52,8 +52,10 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
+    "url": "https://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@github.com/jrdimande/java-college-tasks",
     "accountId": "00b04f0a-1348-4c2c-8563-a169d88a9362"
-  }}]]></component>
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
