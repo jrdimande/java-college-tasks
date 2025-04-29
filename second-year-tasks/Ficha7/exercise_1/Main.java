@@ -14,7 +14,7 @@ public class Main {
         c.brinca();
 
         System.out.println();
-        
+
         p.caminha();
         p.come();
         p.brinca();
