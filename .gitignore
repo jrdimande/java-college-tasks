@@ -4,4 +4,4 @@ out
 token.sh
 ../.idea/
 push.sh
-.idea/
+.idea
